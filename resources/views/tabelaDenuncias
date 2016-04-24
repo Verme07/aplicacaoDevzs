@@ -1,0 +1,18 @@
+@extends('templateQuestionario')
+	@section('content')
+	<p><h1>Denuncias</h1></p>
+	<table class="table-bordered table-striped table-condensed cf">
+		<tr>
+			<th>Nome</th>
+			<th>Contacto</th>
+			<th>Denuncia</th>
+		</tr>
+		@foreach($questionario as $questionario)
+		<tr>
+			<td>{{$questionario->nome}}</td>
+			<td>{{$questionario->contacto}}</td>
+			<td>{{$questionario->denuncia}}</td>
+		</tr>
+		@endforeach
+	</table>
+	@stop

@@ -1,0 +1,17 @@
+header{
+background: #4CC3EF;
+width: 100%;
+padding: 10px;
+margin-bottom: 60px;
+}
+footer{
+background: #4CC3EF;
+padding: 25px;
+text-align: center;
+bottom: 0px;
+width: 100%;
+}
+button#bt{
+	margin-left: 1150px;
+	border-color: #000000;
+}
